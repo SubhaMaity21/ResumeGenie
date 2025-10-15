@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ResumeGenie 🚀
 
-## Getting Started
+An AI-powered resume analysis tool that transforms your PDF resume into actionable insights, comprehensive summaries, and personalized recommendations.
 
-First, run the development server:
+![ResumeGenie](https://img.shields.io/badge/Next.js-15-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![React](https://img.shields.io/badge/React-19-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## ✨ Features
+
+- **AI-Powered Analysis**: Upload your resume and get intelligent AI-driven insights
+- **Smart Chat**: Interactive Q&A about your resume content
+- **Instant Insights**: Get immediate feedback and suggestions
+- **Career Tips**: Receive personalized career recommendations
+- **Secure Processing**: Documents are processed securely without permanent storage
+- **Beautiful UI**: Modern, responsive design with smooth animations
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **UI Library**: React 19
+- **Form Handling**: React Hook Form with Zod validation
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS
+- **UI Components**:Shadcn UI
+
+## 📋 Prerequisites
+
+- Node.js 18+
+- npm or yarn or pnpm
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
+git clone https://github.com/SubhaMaity21/ResumeGenie.git
+cd resume-analyzer
+npm install
 # or
-yarn dev
+yarn install
 # or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+pnpm install

@@ -42,8 +42,7 @@ export function PdfUploaderForm() {
         const file = values.file?.[0];
         if (!file) return;
 
-        // You can use title locally (not sent to API)
-        console.log("Title:", values.title);
+
 
         setIsUploading(true);
         setMessage("");
@@ -62,7 +61,7 @@ export function PdfUploaderForm() {
 
             setProgress(70);
             const data = await res.json();
-            const response = data.summary; // e.g., "part1||part2"
+            const response = data.summary; 
             const [part1, part2] = response.split("||");
 
             if (res.ok) {
